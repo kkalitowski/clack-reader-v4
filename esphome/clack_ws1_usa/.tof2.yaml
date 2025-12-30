@@ -51,9 +51,9 @@ sensor:
 #        - median:
       - delta: 0.2
       - lambda: return (x* 0.39370079); # cm to inch
-      on_value:
-        then:
-          - sensor.template.publish:
-              id: clack_distance
-              state: !lambda |-
-                return id(distance_in).state;
+    on_value:
+      then:
+        - sensor.template.publish:
+            id: clack_distance
+            state: !lambda |-
+              return id(distance_in).state;

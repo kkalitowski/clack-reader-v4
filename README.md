@@ -33,9 +33,6 @@ If needed, there can be downloaded new firmware to the Atom.
 It is important to connect the TOF sensor to the 4p grove connector near the Atom S3. This needs to be done, before powering the PCB, otherwise the Atom will be in a reboot loop, and no wifi hotspot will be available to connect to.
 
 
-## Contact
-Purchase: alphonsuijtdehaag at gmail dot com, if you are interested in a PCB with M5Stack Atom s3 lite
-
 Help: Please open a issue on this git project.
 
 ![Example](/readme/pcb_transp.png)
